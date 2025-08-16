@@ -42,7 +42,7 @@ with st.form("contact_form"):
             # Display submitted data
             st.subheader("Submitted Information:")
             st.write(f"**Name:** {name}")
-            st.write(f"**Email** {email}")
+            st.write(f"**Email:** {email}")
             st.write(f"**Department:** {department}")
             st.write(f"**Message:** {message}")
             st.write(f"**Priority:** {priority}/5")
@@ -62,7 +62,7 @@ with st.form("contact_form"):
             st.dataframe(df)
 
         else:
-            st.error("Please fill in all required fields (Name, Email, Message)")
+            st.error("Please fill in all required fields (Name, Email, and Message)")
 
 # Instructions for the user
 st.sidebar.markdown("""
