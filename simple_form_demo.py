@@ -45,7 +45,7 @@ with st.form("contact_form"):
             st.write(f"**Email** {email}")
             st.write(f"**Department:** {department}")
             st.write(f"**Message:** {message}")
-            st.write(f"**Priority:** {priority}")
+            st.write(f"**Priority:** {priority}/5")
             st.write(f"**Newsletter:** {'Yes' if newsletter else 'No'}")
 
             # You can also save to a DataFrame or database here
