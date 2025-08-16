@@ -64,3 +64,13 @@ with st.form("contact_form"):
         else:
             st.error("Please fill in all required fields (Name, Email, Message)")
 
+# Instructions for the user
+st.sidebar.markdown("""
+## How to use this form:
+1. Fill in your name and email
+2. Select your department
+3. Write your message
+4. Adjust priority level (1-5)
+5. Check newsletter if interested
+6. Click Submit Form
+""")
